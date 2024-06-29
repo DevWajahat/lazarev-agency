@@ -11,15 +11,23 @@ html,body{
 }
 nav{
     position:fixed;
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     align-items: center;
     width: 100%;
-    padding: 2vw 4vw;
+    padding: 2vw 10.4vw;
     justify-content: space-between;
 
 }
-
+.nav-part2{
+    display: flex;
+    gap: 2vw;
+}
+.nav-part2 h4{
+    font-size: 0.76vw;
+    text-transform: uppercase;
+    font-weight: 400;
+}
 
 #page1{
     height: 100vh;
