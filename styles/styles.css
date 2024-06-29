@@ -19,6 +19,22 @@ nav{
     justify-content: space-between;
 
 }
+nav:hover #nav-bottom{
+    height: 100%;
+    bottom: -100%;
+}
+
+#nav-bottom{
+    background-color: red;
+    height: 0%;
+    position: absolute;
+    width: 79%;
+    bottom: 0%;
+    border-bottom: 1px solid #dadadada;
+    transition: all ease 0.65s;
+}
+
+
 .nav-part2{
     display: flex;
     gap: 2vw;
